@@ -9,11 +9,26 @@ body{
     direction: rtl;
 }
 
+/* Header */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    
+    position:fixed;
+    width:100%;
+    z-index:1000;
+}
+
+
 .logo span{
     color:#caa64b;
-    font-size: 20px;
-    margin-right: 500px;
+    align-items: center;
 }
+
+
+
 
 nav a{
     margin:0 10px;
